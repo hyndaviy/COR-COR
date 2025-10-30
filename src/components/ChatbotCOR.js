@@ -9,7 +9,7 @@ const OPENAI_API_KEY = process.env.REACT_APP_OPENAI_API_KEY;
 const Chatbot = () => {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([
-    { role: "assistant", content: "Hi! Welcome to SplitSmart. How can I help you today?" },
+    { role: "assistant", content: "Hi! Welcome to Colorado Resilience. How can I help you today?" },
   ]);
   const messagesEndRef = useRef(null);
 
